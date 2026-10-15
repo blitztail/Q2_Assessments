@@ -9,19 +9,27 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "cannot divide by zero"
+        return "Cannot divide by zero"
     return a / b
 
-num1 = float(input("enter the first number: "))
-num2 = float(input("enter the second number: "))
+#ESTABILSHES THE FUNCTIONS
 
-print("choose an operation:")
-print("1. addition")
-print("2. subtraction")
-print("3. multiplication")
-print("4. division")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-choice = input("enter your choice (1-4): ")
+#LETS THE USER IMPUT VALUE
+
+print("Choose an operation:")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+
+#PRINTS THE USERS OPTION AFTER CHOOSING NUMBERS
+
+choice = input("Enter your choice (1-4): ")
+
+#LETS USER CHOOSE AN OPERATION
 
 if choice == "1":
     result = add(num1, num2)
@@ -34,4 +42,23 @@ elif choice == "4":
 else:
     result = "invalid choice"
 
-print("answer:", result)
+#CALCULATES THE USERS INPUTS DEPENDING ON THE OPERATION CHOOSEN
+
+print("Answer:", result)
+
+#PRINTS FINAL RESULT
+
+
+
+
+
+
+
+
+#REFLECTION
+
+1. What functions did you create in your calculator program? I created four functions: add, subtract, multiply, and divide.
+2. What parameters did your functions use? All four functions used two parameters: a and b.
+3. What arguments were passed when the functions were called? The arguments were num1 and num2, which were the two numbers entered by the user.
+4. How did your program use the returned value? The returned value was stored in the variable result and displayed as the answer.
+5. Why is it better to divide the calculator program into functions instead of writing everything in one long block of code? Functions make the code easier to read, organize, debug, and reuse.
