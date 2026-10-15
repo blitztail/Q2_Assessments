@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNXtVoItCPrPbu46+s3+06W",
+      "authorship_tag": "ABX9TyMOdPw7jKHskmVjsgF50afh",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -68,16 +68,16 @@
         "        return \"Cannot divide by zero\"\n",
         "    return a / b\n",
         "\n",
-        "num1 = float(input(\"enter the first number: \"))\n",
-        "num2 = float(input(\"enter the second number: \"))\n",
+        "num1 = float(input(\"Enter the first number: \"))\n",
+        "num2 = float(input(\"Enter the second number: \"))\n",
         "\n",
-        "print(\"choose an operation:\")\n",
-        "print(\"1. addition\")\n",
-        "print(\"2. subtraction\")\n",
-        "print(\"3. multiplication\")\n",
-        "print(\"4. division\")\n",
+        "print(\"Choose an operation:\")\n",
+        "print(\"1. Addition\")\n",
+        "print(\"2. Subtraction\")\n",
+        "print(\"3. Multiplication\")\n",
+        "print(\"4. Division\")\n",
         "\n",
-        "choice = input(\"enter your choice (1-4): \")\n",
+        "choice = input(\"Enter your choice (1-4): \")\n",
         "\n",
         "if choice == \"1\":\n",
         "    result = add(num1, num2)\n",
