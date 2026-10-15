@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPBErCP1xSmKqyc7UPodH+W",
+      "authorship_tag": "ABX9TyOLA9mtWMiKauMz447UO/B+",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -65,11 +65,11 @@
         "\n",
         "def divide(a, b):\n",
         "    if b == 0:\n",
-        "        return \"cannot divide by zero\"\n",
+        "        return \"Cannot divide by zero\"\n",
         "    return a / b\n",
         "\n",
-        "num1 = float(input(\"enter the first number: \"))\n",
-        "num2 = float(input(\"enter the second number: \"))\n",
+        "num1 = float(input(\"Enter the first number: \"))\n",
+        "num2 = float(input(\"Enter the second number: \"))\n",
         "\n",
         "print(\"Choose an operation:\")\n",
         "print(\"1. Addition\")\n",
